@@ -226,7 +226,7 @@
 }
 
 .dropdown .dropdown-menu .dropdown-item:hover {
-    background: var(--bs-primary);
+    background: rgb(12, 152, 72);
     color: var(--bs-white);
 }
 
