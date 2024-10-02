@@ -700,7 +700,7 @@
     left: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background: rgba(1, 95, 201, .2);
+    background: rgba(12, 152, 72, .2);
     transition: 0.5s;
     z-index: 1;
 }
@@ -733,6 +733,13 @@
 .blog .blog-item:hover .blog-content a.btn:hover {
     color: var(--bs-primary);
 }
+
+.blog .blog-item .blog-content .fa {
+    color: rgb(12, 152, 72) !important;
+    padding-right: 10px;
+}
+
+
 /*** Blog End ***/
 
 
@@ -778,13 +785,18 @@
     z-index: 9;
 }
 
+.team .team-item .team-img .team-icon a {
+   background-color : rgb(12, 152, 72) !important;
+}
+
+
 .team .team-item:hover .team-img .team-icon {
     margin-bottom: 0;
 }
 
 .team .team-item .team-title {
     color: var(--bs-white);
-    background: var(--bs-primary);
+    background: rgb(12, 152, 72);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     transition: 0.5s;
@@ -903,7 +915,16 @@
 }
 
 .footer .footer-item a:hover {
-    color: var(--bs-primary);
+    color: rgb(12, 152, 72);
+}
+
+.btn-xl-square {
+    background-color: rgb(12, 152, 72) !important;
+    color: #ffffff;
+}
+
+.btn-xl-square i {
+    color: #ffffff;
 }
 
 .footer .footer-item .footer-btn a,
@@ -916,7 +937,7 @@
 }
 
 .footer .footer-item .footer-btn a:hover i {
-    color: var(--bs-primary);
+    color: rgb(12, 152, 72);;
 }
 
 
@@ -953,11 +974,11 @@
 
 .footer .footer-item .footer-btn a {
     background: var(--bs-light);
-    color: var(--bs-primary);
+    color: rgb(12, 152, 72);
 }
 
 .footer .footer-item .footer-btn a:hover {
-    background: var(--bs-primary);
+    background: rgb(12, 152, 72);
 }
 
 .footer .footer-item .footer-btn a:hover i {
