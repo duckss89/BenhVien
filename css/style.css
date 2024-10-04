@@ -453,7 +453,25 @@
     background: var(--bs-dark);
     color: var(--bs-white);
 }
+
+.feature .mb-4 p{
+    text-align: left;
+}
 /*** Feature End ***/
+
+/*** ShowMore Start ***/
+.showmore .text-justify {
+    text-align: justify;
+}
+
+.showmore .section-title {
+    font-size: 20px;
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+/*** ShowMore End ***/
 
 /*** About Start ***/
 .about {
@@ -478,14 +496,7 @@
 .about-item-content p {
     color: #555;
     font-size: 16px;
-}
-
-.about-item-content i {
-    color: rgb(12, 152, 72);
-}
-
-.about-item-content .text-primary {
-    color: rgb(12, 152, 72) !important;
+    text-align: justify;
 }
 
 .counter-item {
@@ -925,8 +936,6 @@
 }
 
 /*** Supplier End***/
-
-
 
 
 /*** Partner Start ***/

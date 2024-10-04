@@ -151,9 +151,12 @@
 $(document).ready(function(){
     $('.xem-them').click(function(){
         var target = $(this).data('target');
+        
+        $('.toggle-content').not(target).slideUp(300);
+        $('.xem-them').not(this).text("Xem Thêm");
+
         $(target).slideToggle(300);
         
-        // Thay đổi văn bản nút
         if($(this).text() === "Xem Thêm"){
             $(this).text("Thu gọn");
         } else {
