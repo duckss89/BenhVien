@@ -894,6 +894,25 @@
 /*** Contact End ***/
 
 
+
+/*** Supplier Start***/
+
+.supplier-item {
+    padding: 10px;
+    text-align: center;
+}
+
+.supplier-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/*** Supplier End***/
+
+
+
+
 /*** Footer Start ***/
 .footer {
     background: var(--bs-dark);
