@@ -66,6 +66,29 @@
         }
     });
 
+    // Partner carousel
+    $(".partner-carousel").owlCarousel({
+        items: 6,
+        margin: 10,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        smartSpeed: 600,
+        dots: true,
+        nav: false,
+        responsive: {
+            0: {
+                items: 2
+            },
+            600: {
+                items: 4
+            },
+            1000: {
+                items: 6
+            }
+        }
+    });
+
     // testimonial carousel
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
