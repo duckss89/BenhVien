@@ -102,3 +102,16 @@
 
 })(jQuery);
 
+$(document).ready(function(){
+    $('.xem-them').click(function(){
+        var target = $(this).data('target');
+        $(target).slideToggle(300);
+        
+        // Thay đổi văn bản nút
+        if($(this).text() === "Xem Thêm"){
+            $(this).text("Thu gọn");
+        } else {
+            $(this).text("Xem Thêm");
+        }
+    });
+});
