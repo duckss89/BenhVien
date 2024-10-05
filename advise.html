@@ -177,12 +177,17 @@
             <img src="img/Tuvan-1.png">
         </div>
         <!-- Header End -->
-        <div class="container-fluid bg-light about py-5"></div>
+
+        <div class="container-fluid bg-light about py-5">
             <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h1 class="display-4 mb-4">Chương trình chăm sóc sức khỏe</h4>
+                    <p class="mb-0">Cung cấp kiến thức và kỹ năng y tế cần thiết để giúp người dân chủ động chăm sóc, bảo vệ sức khỏe cho bản thân và gia đình một cách hiệu quả nhất.</p>
+                </div>
                 <div class="row g-5">
                     <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                         <div class="about-item-content bg-white rounded p-5 h-100">
-                            <h4 class="text-primary">1.Cố vấn về chăm sóc sức khoẻ cho nhân viên</h4>
+                            <h4 class="text-primary">Cố vấn về chăm sóc sức khoẻ cho nhân viên</h4>
                             <p>Thiết kế một Chế độ Phúc lợi phù hợp cho nhân viên, trong đó có hạng mục sức khoẻ, là một việc khá nan giải nếu thiếu am hiểu về ngành y và các thuật ngữ, sản phẩm, hình thức thanh toán trong bảo hiểm, cũng nhưchi phí điều trị.
                             </p>
                             <p>Các chuyên gia về y tế và bảo hiểm của chúng tôi sẵn sàng hỗ trợ bạn nhằm đưa ra những cách xây dựng hiệu quả nhất Chế độ phúc lợi về sức khoẻ cho công ty.
@@ -202,7 +207,7 @@
                     </div>
                     <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                         <div class="about-item-content bg-white rounded p-5 h-100">
-                            <h4 class="text-primary">2. Lớp tập huấn, buổi nói chuyện chuyên đề, lớp thực hành, và hội thảo</h4>
+                            <h4 class="text-primary">Lớp tập huấn, buổi nói chuyện chuyên đề, lớp thực hành, và hội thảo</h4>
                             <p>Các chuyên gia bệnh viện An Phú có khả năng làm diễn giả tại các sự kiện có thông tin chiều sâu như những buổi nói chuyện chuyên đề, lớp tập huấn, hội thảo tại công sở để người lao động có thể tiếp cận với lý thuyết và thực tiễn về sức khoẻ.
                             </p>
                             <p>Các hoạt động này giúp nhân viên phòng tránh bệnh tật, góp phần thân thiện hoá nơi làm việc và phòng tránh được những tai nạn đáng tiếc.
@@ -229,36 +234,45 @@
                 </div>
             </div>
         </div>
-        <!-- About Start -->
-        <div class="about-item-content bg-white rounded p-5 h-100">
-            <h3 class="display-4 mb-4">Đăng ký khám online</h3>
-            <h4 class="text-primary">Quý khách cần đăng ký khám online vui lòng điền thông tin và chọn dịch vụ sau đó bấm nút đăng ký khám
-            </h4>
-            <h4 class="text-primary">nhân viên bệnh viện sẽ gọi điện thông báo số thứ tự khám bệnh cho quý khách
-            </h4>
-            <input type="text" placeholder="Họ và tên" style="width: 1000px; border: 1px solid; border-radius: 5px; height: 30px;">
-                <br><br>
-            <input type="email" placeholder="Email" style="width: 1000px; border: 1px solid; border-radius: 5px; height: 30px;">
-                <br><br>
-            <input type="text" placeholder="Số điện thoại" style="width: 1000px; border: 1px solid; border-radius: 5px; height: 30px;">
-                <br><br>
-            <input type="text" placeholder="Địa chi" style="width: 1000px; border: 1px solid; border-radius: 5px; height: 30px;">
-                <br><br>
-            <select style="width: 1000px; border: 1px solid; border-radius: 5px; height: 30px;">
-                <option value="Chọn dịch vụ">Chọn dịch vụ</option>
+
+        <div class="advise-container">
+            <!-- Form đăng ký -->
+            <div class="advise bg-white rounded p-5 h-100">
+                <h1 class="display-4 mb-4">Đăng ký khám online</h1>
+                <p class="mb-0">Quý khách cần đăng ký khám online vui lòng điền thông tin và chọn dịch vụ sau đó bấm nút đăng ký khám</p>
+                <p class="text-primary">Nhân viên bệnh viện sẽ gọi điện thông báo số thứ tự khám bệnh cho quý khách</p>
+                
+                <input type="text" placeholder="Họ và tên" class="form-input">
+                <input type="email" placeholder="Email" class="form-input">
+                <input type="text" placeholder="Số điện thoại" class="form-input">
+                <input type="text" placeholder="Địa chỉ" class="form-input">
+                
+                <select class="form-input">
+                    <option value="Chọn dịch vụ">Chọn dịch vụ</option>
                     <option value="Khám bệnh">Khám bệnh</option>
                     <option value="Khám thai">Khám thai</option>
                     <option value="Khám sức khỏe">Khám sức khỏe</option>
                     <option value="Tiêm chủng">Tiêm chủng</option>
-            </select>
-                <br><br>
-            <input type="date" style="width: 1000px; border: 1px solid; border-radius: 5px; height: 30px;">
-                <br><br>
-            <input type="text" placeholder="Mô tả sơ lược Bệnh lý" style="width: 1000px; border: 1px solid; border-radius: 5px; height: 100px;">
-                <br><br>
-            <button  style="border: 1px solid; border-radius: 5px; color: rgb(12, 152, 72);">Đăng ký khám</button>
-        </div>
-        <!-- About End -->
+                </select>
+                
+                <input type="date" class="form-input">
+                <textarea placeholder="Mô tả sơ lược Bệnh lý" class="form-textarea"></textarea>
+                
+                <button class="submit-btn">Đăng ký khám</button>
+            </div>
+        
+            <!-- Bản đồ Google Maps -->
+            <div class="map-container">
+                <div class="advise bg-white rounded p-5 h-100">
+                    <h1 class="display-4 mb-4">Địa chỉ bệnh viện</h1>
+                    <p class="mb-0">Quý khách có thể tìm thấy bệnh viện tại địa chỉ dưới đây:</p>
+                    <p class="text-primary">Số 5, đường 22 tháng 12, phường An Phú, thành phố Thuận An, tỉnh Bình Dương</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.2092743143253!2d106.73460447570464!3d10.947558456012505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d9ef096ab099%3A0x90985b344673c557!2zQuG7hk5IIFZJ4buGTiDEkEEgS0hPQSBBTiBQSMOa!5e0!3m2!1svi!2s!4v1728153575479!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>        
+
+
         <!-- Footer Start -->
         <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
             <div class="container py-5">
