@@ -341,6 +341,10 @@
     background-image: url(../img/index-4.jpg);
 }
 
+.carousel-bg-image-5 {
+    background-image: url(../img/Tuvan-1.png);
+}
+
 @media (max-width: 991px) {
     .header-carousel .header-carousel-item {
         height: 1300px;
@@ -480,8 +484,7 @@
     justify-content: space-between;
     align-items: stretch;
     gap: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px 300px;
 }
 
 .advise {
@@ -505,7 +508,7 @@
 
 .map-container iframe {
     width: 100%;
-    height: calc(100% - 150px);
+    height: calc(100% - 180px);
 }
 
 .advise .form-input, .form-textarea, select {
@@ -533,9 +536,10 @@
     background-color: #0a7a3c;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .advise-container {
         flex-direction: column;
+        margin: 30px 100px;
     }
     .advise {
         margin-bottom: 20px;
