@@ -345,6 +345,10 @@
     background-image: url(../img/Tuvan-1.png);
 }
 
+.carousel-bg-image-6 {
+    background-image: url(../img/doanhnghiep-1.jpg);
+}
+
 @media (max-width: 991px) {
     .header-carousel .header-carousel-item {
         height: 1300px;
@@ -539,7 +543,7 @@
 @media (max-width: 900px) {
     .advise-container {
         flex-direction: column;
-        margin: 30px 100px;
+        margin: 30px 30px;
     }
     .advise {
         margin-bottom: 20px;
@@ -549,6 +553,7 @@
 @media (max-width: 480px) {
     .advise-container {
         gap: 15px;
+        margin: 30px 30px;
     }
 
     .advise, .map-container {
