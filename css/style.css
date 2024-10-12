@@ -285,8 +285,8 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 0px;
-    padding-top: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header-carousel .owl-nav .owl-prev,
@@ -356,13 +356,15 @@
 
 @media (max-width: 991px) {
     .header-carousel .header-carousel-item {
-        height: 1300px;
+        height: auto;
+        padding-top: 30%;
     }
 }
 
 @media (max-width: 767px) {
     .header-carousel .header-carousel-item {
-        height: 950px;
+        height: auto;
+        padding-top: 30%;
     }
 }
 
@@ -487,6 +489,84 @@
 }
 /*** Pricelist End ***/
 
+
+/*** Table Start ***/
+.container-fluid.bg-light.table {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.table-item-content {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table .text-primary {
+    color: #0c9848;
+}
+
+.table h1.display-4 {
+    font-size: 2.5rem;
+    color: #0c9848;
+}
+
+.table h4.text-primary {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.table_page {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.table_page th, .table_page td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+    vertical-align: middle;
+}
+
+.table_page th {
+    background-color: #0c9848;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.table_page td img {
+    width: 20px;
+    height: 20px;
+}
+
+.price td, .promotion td {
+    background-color: #f1f1f1;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.price td strong, .promotion td strong {
+    color: gray;
+}
+
+@media (max-width: 768px) {
+    .table_page th, .table_page td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    h1.display-4 {
+        font-size: 2rem;
+    }
+    
+    h4.text-primary {
+        font-size: 1.2rem;
+    }
+}
+
+/*** Table End ***/
+
 /*** ShowMore Start ***/
 .showmore .text-justify {
     text-align: justify;
@@ -498,6 +578,42 @@
     margin-top: 16px;
     margin-bottom: 8px;
     text-align: left;
+}
+
+@media (max-width: 991px) {
+    .showmore .section-title {
+        font-size: 18px;
+    }
+    .showmore .text-justify {
+        font-size: 16px;
+    }
+    .showmore .toggle-content {
+        padding: 0 90px;
+    }
+}
+
+@media (max-width: 767px) {
+    .showmore .section-title {
+        font-size: 16px;
+    }
+    .showmore .text-justify {
+        font-size: 14px;
+    }
+    .showmore .toggle-content {
+        padding: 0 80px;
+    }
+}
+
+@media (max-width: 575px) {
+    .showmore .section-title {
+        font-size: 14px; 
+    }
+    .showmore .text-justify {
+        font-size: 12px; 
+    }
+    .showmore .toggle-content {
+        padding: 0 75px; 
+    }
 }
 /*** ShowMore End ***/
 
