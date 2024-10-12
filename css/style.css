@@ -596,17 +596,22 @@
 }
 
 @media (max-width: 576px) {
+    .table {
+        margin: 0;
+        padding: 0;
+    }
+
     .table_page th, .table_page td {
         font-size: 8px;
         padding: 2px;
     }
 
     .table h1.display-4 {
-        font-size: 1.2rem;
+        font-size: 17px;
     }
 
     .table h4.text-primary {
-        font-size: 1rem;
+        font-size: 14px;
     }
 }
 /*** Table End ***/
