@@ -553,7 +553,7 @@
 
 @media (max-width: 1200px) {
     .table_page th, .table_page td {
-        padding: 10px 12px;
+        padding: 10px 12px; 
     }
 
     .table h1.display-4 {
@@ -561,29 +561,29 @@
     }
 
     .table h4.text-primary {
-        font-size: 1.5rem;
+        font-size: 1.5rem; 
     }
 }
 
 @media (max-width: 992px) {
     .table_page th, .table_page td {
-        font-size: 14px;
-        padding: 8px;
+        font-size: 14px; 
+        padding: 8px; 
     }
 
     .table h1.display-4 {
-        font-size: 1.8rem;
+        font-size: 1.8rem; 
     }
 
     .table h4.text-primary {
-        font-size: 1.3rem;
+        font-size: 1.3rem; 
     }
 }
 
 @media (max-width: 768px) {
     .table_page th, .table_page td {
         font-size: 12px; 
-        padding: 6px;
+        padding: 6px; 
     }
 
     .table h1.display-4 {
@@ -591,30 +591,31 @@
     }
 
     .table h4.text-primary {
-        font-size: 1.2rem;
+        font-size: 1.2rem; 
     }
 }
 
 @media (max-width: 576px) {
-    .table {
-        margin: 0;
-        padding: 0;
+    .table_page {
+        display: block; 
+        overflow-x: auto; 
+        -webkit-overflow-scrolling: touch;
     }
 
     .table_page th, .table_page td {
-        font-size: 8px;
-        padding: 2px;
+        font-size: 10px; 
+        padding: 4px; 
     }
 
     .table h1.display-4 {
-        font-size: 17px;
+        font-size: 1.2rem;
     }
 
     .table h4.text-primary {
-        font-size: 14px;
+        font-size: 1rem;
     }
 }
-/*** Table End ***/
+
 
 /*** ShowMore Start ***/
 .showmore .text-justify {
